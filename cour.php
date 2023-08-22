@@ -38,7 +38,7 @@
    $liste="pomme,orange,banane";
    $tableau=explode("e",$liste);//Résultat:["pomm", ",orang", ",banan"]
    //AFFICHAGE TABLEAU
-   print_r($tableau);
+   print_r($tableau); 
    ?>
 </body>
 </html>
