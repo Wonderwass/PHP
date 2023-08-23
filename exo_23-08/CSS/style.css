@@ -1,0 +1,54 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+
+text-align: center;
+
+}
+#nom{
+
+}
+input{
+    padding-left: 17px;
+    border-radius: 10px;
+    height: 43px;
+    width: 390px;
+    font-size: 18px;
+    background-color: #eeeeee;
+    border: 2px solid #a4a4a4;
+}
+#inscription{
+    width: 197px;
+    color: white;
+    margin-left: 199px;
+    background-color: #b45f06;
+
+}
+#conexion{
+    width: 197px;
+    color: white;
+    margin-left: 199px;
+    background-color: #b45f06;
+
+}
+/* #fichier{
+    border-radius: 10px;
+    height: 43px;
+    width: 390px;
+    font-size: 18px;
+    background-color: #eeeeee;
+    cursor: pointer ;
+} */
+input[type=file]::file-selector-button {
+  border: none;
+  margin-right: 20px;
+  background: rgb(237, 235, 235);
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: gray;
+  cursor: pointer;
+  width: 390px;
+    
+
+}
