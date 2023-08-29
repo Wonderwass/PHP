@@ -52,3 +52,33 @@ input[type=file]::file-selector-button {
     
 
 }
+.profil{
+    width: 30px;
+    height: 30px;
+    display:flex;
+}
+.profil img{
+    width: 100%;
+    height:100%;
+    border-radius: 50%;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    border:solid 1px;
+}
+.logout{
+    background-color: brown;
+    color:white;
+    height:30px;
+}
+.post{
+    width: 200px;
+    height:250px;
+}
+.posting img{
+    width: 100%;
+    height:100%;
+
+}
